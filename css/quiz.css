@@ -1,0 +1,146 @@
+/* play quiz */
+.quiz{
+  background-color: #f4f4f4;
+ 
+  height: 100vh;
+  margin: 0;
+}
+.quizh{
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+.quizconnn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.quizcon {
+  width: 40rem;
+  height: 30rem;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.questioncon {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.optionscon button {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  width: 10rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.optionscon button:hover {
+  background-color: #0056b3;
+}
+
+.scorecon {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.next-button{
+  font-size: 1rem;
+  margin-top: 3rem;
+  padding: 0.8rem;
+  margin-right: 20px;
+  width: 6rem;
+  border-radius: 5px;
+  color: white;
+  background: rgb(43, 43, 244);
+  cursor: pointer;
+  border: none;
+}
+.playagainbtn{
+  font-size: 1rem;
+  padding: 0.8rem;  
+  width: 8rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  color: white;
+  background: rgb(43, 43, 244);
+  cursor: pointer;
+  border: none;
+}
+.scorecon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+/* fun fact */
+
+
+#addoverlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+#addfactoverlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.fun-fact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 20rem;
+  width: 30rem;
+}
+
+.funh2{
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.funcon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  
+}
+#fun-fact{
+  font-size: 18px;
+  color: #666;
+}

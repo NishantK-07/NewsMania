@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Open Sans', cursive;
+}
+.seprate{
+  display: block; 
+  
+  height: 2px; 
+  border: none; 
+  background-color: #111; 
+  margin:0 1rem ; 
+}
+/* nabar */
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    background-color: #fff; 
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+.left{
+    font-size: 56px;
+    color: rgb(2, 2, 216);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.08rem;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0 23px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    color: rgb(2, 2, 216);
+    font-size: 1.09rem;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.dark-mode nav {
+  background-color: #333;
+  border-bottom: 1px solid #555;
+}
+.dark-mode .headline{
+  background-color: #333;
+}
+.dark-mode .cardsofhindienglish{
+  background-color: #333;
+}
+.dark-mode .quiz{
+  background-color: #333;
+}
+.dark-mode .quiz .quizh{
+  color: #fff;;
+}
+.dark-mode .cardsofhindienglish .pcards{
+  color: #fff;
+}
+.dark-mode .headline .headlineh1{
+  color: #fff;
+}
+.dark-mode .headline .cards .card{
+  background-color: #fff; 
+}
+.dark-mode .seprate{
+  background-color: white;
+}
+.dark-mode #contact{
+  background-color: #333;
+} 
+.dark-mode  .concth1{
+  color: #fff;  
+}
+.dark-mode ul li a {
+  color: #fff;
+}
+
+.dark-mode .toggle-button {
+  color: #fff;
+}
+
+
+
+
+/* main */
+main{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('/img/istockphoto-1454497852-1024x1024\ \(1\).jpg'); */
+    
+    background-image: url('/img/istockphoto-2109241463-1024x1024\ \(1\).jpg');
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.txt{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 6rem;
+  
+}
+main .txth1{
+  color: #111;
+  font-size: 3.5rem;
+}
+main .txtp{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: rgb(85, 85, 85);
+}
+.lang{
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  color: #111;
+}
+.scrollp{
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.country{
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  padding: 0.8rem;
+  margin-right: 20px;
+  width: 10rem;
+  border-radius: 5px;
+  color: white;
+  background: rgb(43, 43, 244);
+  cursor: pointer;
+}
+.country:hover{
+  font-size: 1.615rem;
+}
+
+
+
+
+/* headline section */
+.headline{
+  min-height: 100vh;
+  padding-bottom: 2rem;
+
+}
+.headline .headlineh1{
+text-align: center;
+padding-top: 2rem;
+  font-size: 3rem;
+}
+.headline .cards{
+ 
+  padding-top: 2rem;
+  margin: auto;
+ margin-left: 4rem;
+ margin-right: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.headline  .cards .card{
+  width: 40rem;
+  padding: 2rem;
+  border: 1px solid black;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.textsetting{
+  padding-left: 2rem;
+}
+.headtxt{
+  font-size: 1.3rem;
+}
+
+/* weather */
+.main {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #01161E;
+  
+}
+
+.weather-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  height: 5rem;
+}
+
+.location {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.condition {
+  text-align: center;
+}
+/* hindi and english section */
+.showindia{
+  display: block;
+}
+.showusa{
+  display: none;
+}
+.showuk{
+  display: none;
+}
+.cardsofhindienglish{
+  /* background-image: url('/img/istockphoto-1454497852-1024x1024\ \(1\).jpg'); */
+padding-bottom: 2rem;
+position: relative;
+}
+.pcards{
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 5rem;
+  font-weight: bold;
+}
+.cards{
+
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  min-height: 100vh;
+  padding-top: 7rem;
+}
+.cardsec{
+  position: relative;
+  margin: auto;
+  max-width: 30rem;
+  background-color: white;
+  width: 30rem;
+  height: 18rem;
+  padding: 2rem;
+  border: 1px solid black;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+
+
+.langhead{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.langp{
+ 
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  margin-top: 1rem;
+}
+.imgpos{
+  margin-left: 4.6rem;
+  
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author-image {
+  width: 100%; 
+  height: 40px; 
+ margin-bottom: 0.5rem;
+  margin-right: 10px;
+}
+
+.author {
+  font-size: 0.9em;
+  color: #555;
+}
+.urlcon{
+position: absolute;
+bottom: 1rem;
+}

@@ -1,0 +1,82 @@
+.addnotebtn{
+    margin-left: 9rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.addnote{
+    border-radius: 10px;
+    position: absolute;
+    
+    top: 20%;
+    left: 33.5%;
+    width: 500px;
+    height: 520px;
+    border: 2px solid black;
+    margin: auto;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.756);
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+.inputarea{
+  height: 60px;
+  margin: auto;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.addnoteh3{
+    margin-top: 50px;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.listofnotes{
+   
+    margin: auto;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+}
+.close{
+    margin-top: 3px;
+   margin-left: 43%;
+   padding: 0.7rem;
+   width: 100px;
+   background-color: black;
+   color: #fff;
+}
+.inpttext{
+    height: 60%;
+    
+}
+.listitem{
+    display: flex;
+}
+.liststyle{
+    font-size: 1.1rem;
+}
+.libtn{
+   background-color: black;
+   color: #fff;
+    padding: 0.4rem;
+}
+.btncon{
+    margin-left:5rem ;
+}
+.notebtn{
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+
+}
