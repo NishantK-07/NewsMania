@@ -107,7 +107,7 @@ main{
     width: 100%;
     /* background-image: url('/img/istockphoto-1454497852-1024x1024\ \(1\).jpg'); */
     
-    background-image: url('/img/istockphoto-2109241463-1024x1024\ \(1\).jpg');
+    background-image: url('./img/istockphoto-2109241463-1024x1024\ \(1\).jpg');
    
     background-repeat: no-repeat;
     background-position: center;

@@ -9,7 +9,7 @@ function inputHandler(){
         return ;
     }
     const taskElem=createTask(newTask);
-    console.log(taskElem);
+    // console.log(taskElem);
     tasklist.appendChild(taskElem);
     // //clear input
     inpt.value="";

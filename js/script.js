@@ -162,7 +162,7 @@ async function fetchnewscountry(country){
             }
             else if(response.status==200){
                 const json=await response.json();
-                console.log(json);
+                // console.log(json);
                const articles= json.articles.slice(1, 7);
                const cards=document.createElement('div');
                 cards.classList.add('cards');
@@ -244,7 +244,7 @@ async function fetchnewscountry(country){
 }
 
 indiabtn.addEventListener("click",()=>{
-    console.log("i was clicked india")
+    // console.log("i was clicked india")
     if(indiacards.style.display=="block"){
         indiacards.style.display="none";
     }
@@ -294,7 +294,7 @@ async function fetchNewscategory(country, category) {
         alert("Location is invalid");
     } else if (response.status === 200) {
         const json = await response.json();
-        console.log(json);
+        // console.log(json);
         const articles = json.articles.slice(1, 7);
         displayNews(articles);
     }
