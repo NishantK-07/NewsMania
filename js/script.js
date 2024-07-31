@@ -29,7 +29,8 @@ toggleBtn.addEventListener('click', () => {
 //fetching news
 fetchnews()
 async function fetchnews(){
-    const url=`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=c9fac730ef284886a1be6dc1858033eb`;
+    const url=`
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=c9fac730ef284886a1be6dc1858033eb`;
     const response= await fetch(url);
             if(response.status==400){
                 alert("location is invalid");
